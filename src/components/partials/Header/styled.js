@@ -53,10 +53,14 @@ nav {
         margin-left:20px;
         margin-right:20px;
 
-        a {
+        a, button {
+            outline:0;
+            border:0;
+            background:none;
             color:#000;
             font-size:14px;
             text-decoration:none;
+            cursor:pointer;
 
             &:hover {
                 color:#999;
